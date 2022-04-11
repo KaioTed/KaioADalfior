@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+
+
+#cabecalho{
+    padding: 0em;
+}
+    #cabecalho img{
+        border-radius: 100%;
+        height: 7em;
+        margin-top: -5em;
+        border: 0.2em solid gray;
+        margin-left: 2.5em;
+        float: left;
+    }
+    #cabecalho h1{
+        text-align: center;
+        float:right;
+        color:white;
+        
+    }
+
+
+#foto{
+    border: 10em;
+}
+#backImg{
+    float: left;
+    width: 35em;
+    margin-left: 45em;
+    margin-top: -3em;
+}
+#dev h1{
+    color: white;
+    text-align: center;
+    padding: 3em;
+    margin-top: -17em;
+    float: left;
+    margin-left: 5em;
+    font-family: monospace;
+    
+}
+
+
+#menu{
+    background-color: black;
+    padding: 3em;    
+    text-align: center;
+    float: inline-start;
+    
+}
+#menu li{
+    display: inline-block;
+    
+}
+#menu a:hover{
+    color: gray;
+}
+#menu li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;    
+    text-align: center;
+    font-weight: bold;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#menu .search-txt{
+    margin-left: 4em;
+    align-items: center;
+    padding: 0;
+}
+#menu input{
+    border-radius: 1.7em;
+    margin: 2em;
+    border: 1em solid blue;
+    width: 10em;
+    padding: 0;
+}
+
+
+
+#conteudo{
+    margin-left: 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+    padding: -2em;
+    margin-top: 10em;
+    background-color: black;
+    
+}
+#conteudo img{
+    height: 15.4em;
+    margin-right: 2em;
+    border-radius: 1em;
+    border: 0.2em solid black;
+    
+}
+#conteudo p{
+    float: inline-start;
+    color: white;
+    height: 6em;
+    font-size: large;
+    margin-top: -16em;
+    margin-left: 25em;
+    padding: 4.9em;
+    font-family: monospace;
+    text-align: justify;
+}
+
+
+#cursos{
+    margin-left: 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+    padding: -2em;
+    margin-top: 10em;
+    background-color: black;
+}
+#cursos img{
+    height: 15.4em;
+    margin-right: 2em;
+    border-radius: 1em;
+    border: 0.2em solid black;
+}
+#cursos p{
+    float: right;
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    text-align: justify;
+    margin-right: 17em;
+    margin-top: 2.5em;
+}
+
+
+#kaio{
+    margin-left: 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+    padding: -1em;
+    margin-top: 10em;
+    background-color: black;
+    width: 80.48em;
+    height: 19.5em;
+    
+}
+#kaio img{
+    margin: 0;
+    height: 19em;
+    margin-right: 2em;
+    border-radius: 1em;
+    border: 0.2em solid black;
+}
+#kaio p{
+    float: right;
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    text-align: justify;
+    margin-right: 8em;
+    margin-top: -0.9em;
+    padding: 0;
+    width: 50em;
+}
+#habilidades{
+    margin-left: 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+    padding: -2em;
+    margin-top: 10em;
+    background-color: black;
+    height: 15.8em;
+}
+#habilidades img{
+    height: 15.4em;
+    margin-right: 2em;
+    border-radius: 1em;
+    border: 0.2em solid black;
+}
+#habilidades p{
+    float: right;
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    text-align: justify;
+    margin-right: 28em;
+    margin-top: 0.9em;
+}
+
+
+
+
+
+#ap1{
+    background-color: black;
+    color: rgb(252, 118, 118);
+    margin-top: 35em;
+    text-align: center;
+    padding: 2em;
+}
+    #ap1 h1{
+        margin-top:0;
+        font-weight: bold;
+        font-family:monospace;
+        font-size: 3em;
+    }
+
+
+    #ap2{
+        background-color: black;
+        color: rgb(129, 252, 118);
+        margin-top: 10em;
+        text-align: center;
+        padding: 2em;
+    }
+        #ap2 h1{
+            font-weight: bold;
+            font-family:monospace;
+            font-size: 3em;
+        }
+
+
+
+ #ap3{
+     background-color: black;
+     color: rgb(118, 225, 252);
+    margin-top: 10em;
+    text-align: center;
+    padding: 2em;
+
+ }
+            #ap3 h1{
+                font-weight: bold;
+                font-family:monospace;
+                font-size: 3em;
+            }
+#ap4{
+    background-color: black;
+    color: rgb(252, 118, 230);
+    margin-top: 10em;
+    text-align: center;
+    padding: 2em;
+}
+    #ap4 h1{
+        font-weight: bold;
+        font-family:monospace;
+        font-size: 3em;
+    }
+
+
+
+#ap5{
+    background-color: black;
+    color: rgb(212, 252, 118);
+    margin-top: 10em;
+    text-align: center;
+    padding: 1em;
+}
+    #ap5 h1{
+        font-weight: bold;
+        font-family:monospace;
+        font-size: 3em;
+    }
+
+
+    #rsocial{
+        background-color: black;
+        padding: 18em;    
+        text-align: center;
+        margin: auto;
+        margin-left: 18em;
+    }
+    #rsocial ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #rsocial .insta img{
+        height: 2.5em;
+        float: right;
+        margin-right: 40em;
+       
+    }
+    #rsocial .wpp img{
+        height: 2.5em;
+        float: right;
+        margin-right: 30em;
+        margin-top: -2.55em;
+    }
+    #rsocial .link img{
+        height: 2.5em;
+        float: right;
+        margin-right: 20em;
+        margin-top: -2.48em;
+    }
+    #rsocial .git img{
+        height: 2.5em;
+        float: right;
+        margin-right: 10em;
+        margin-top: -2.41em;
+        
+    }
+    #rsocial .ytb img{
+        height: 2.5em;
+        float: right;
+        margin-right: 0em;
+        margin-top: -2.36em ;
+    }
+
+    #rsocial a:hover{
+        color: gray;
+    }
+    
+    #rsocial input{
+        border-radius: 0.6em;
+    }
+    
+#rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#lupa{
+    height: 2em;
+   
+}
+#pesq{
+    float: right;
+    margin-right: 3em;
+    margin-top: -5.3em;
+    
+}
+#lupa{
+    margin: 0;
+    
+}
